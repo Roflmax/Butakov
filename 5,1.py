@@ -3,7 +3,7 @@ import re
 from datetime import datetime
 from prettytable import PrettyTable, ALL
 
-
+#Что то поменял для задачи
 class DataSet:
 
 
