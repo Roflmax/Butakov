@@ -13,7 +13,7 @@ class DataSet:
               self.vacancies_objects = []
 
               with open(file_name, encoding='utf-8-sig') as f:
-                  rows_count = len(list(csv.reader(open(file_name, encoding='utf-8-sig'))))
+                  drugoe_count = len(list(csv.reader(open(file_name, encoding='utf-8-sig'))))
                   if rows_count == 1:
                       print("Нет данных")
                       return
