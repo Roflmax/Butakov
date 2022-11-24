@@ -2,13 +2,8 @@ import csv
 import re
 from datetime import datetime
 from prettytable import PrettyTable, ALL
-<<<<<<< HEAD
-from rofl import rofl
-#Текст для задания ура
-=======
 
 #Что то поменял для задачи
->>>>>>> da68e7e35fef2add5487e24aaad1faebf5cea81c
 class DataSet:
 
 
@@ -18,7 +13,7 @@ class DataSet:
               self.vacancies_objects = []
 
               with open(file_name, encoding='utf-8-sig') as f:
-                  line_count = len(list(csv.reader(open(file_name, encoding='utf-8-sig'))))
+                  drugoe_count = len(list(csv.reader(open(file_name, encoding='utf-8-sig'))))
                   if rows_count == 1:
                       print("Нет данных")
                       return
